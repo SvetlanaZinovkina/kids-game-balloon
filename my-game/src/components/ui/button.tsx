@@ -7,7 +7,6 @@ import { motion } from "framer-motion";
 const Button: React.FC = () => {
     const navigate = useNavigate();
     return (<>
-        {/*<div className={styles.button} onClick={() => navigate(routes.game())}><p>Старт</p></div>*/}
     <motion.button
         className={styles.button}
         onClick={() => navigate(routes.game())}

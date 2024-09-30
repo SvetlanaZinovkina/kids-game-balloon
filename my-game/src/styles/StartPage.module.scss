@@ -1,6 +1,7 @@
 .container {
   width: 100vw;
   height: 100vh;
+  position: relative;
   background: linear-gradient(to bottom, #87CEEB, #1E90FF);
   overflow: hidden;
   .title{
