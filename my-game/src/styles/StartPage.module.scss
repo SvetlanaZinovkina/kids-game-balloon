@@ -1,0 +1,12 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to bottom, #87CEEB, #1E90FF);
+  overflow: hidden;
+  .title{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    z-index: 100;
+  }
+}
+
