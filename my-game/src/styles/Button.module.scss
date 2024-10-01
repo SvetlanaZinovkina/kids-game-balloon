@@ -1,7 +1,4 @@
 .button {
-  position: fixed;
-  top: 50%;
-  left: 25%;
   transform: translate(-50%, -50%);
   width: 200px;
   height: 50px;
@@ -12,13 +9,13 @@
   text-align: center;
   cursor: pointer;
   justify-content: center;
-  font-family: "Rubik Mono One", monospace;
+  font-family: 'Rubik Mono One', monospace;
   &:hover {
-    border: 2px solid #1E90FF;
+    border: 2px solid #1e90ff;
   }
   @media (hover: none) {
     &:active {
-      border: 2px solid #FF4500;
+      border: 2px solid #ff4500;
     }
   }
 }
