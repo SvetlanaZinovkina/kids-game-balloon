@@ -7,8 +7,8 @@ import generateBalloons from '../utilits/generateBallonsGame';
 // @ts-ignore
 import popBalloon from '../assets/music/balloon-pop.mp3';
 import { Balloon } from '../types/types';
-import imageMusic from "../images/music-note-svgrepo-com.svg";
-import imageMusicOff from "../images/music-note-slash-svgrepo-com (1).svg";
+import imageMusic from '../images/music-note-svgrepo-com.svg';
+import imageMusicOff from '../images/music-note-slash-svgrepo-com (1).svg';
 
 const Game: React.FC = () => {
   const [isMusicPlaying, setIsMusicPlaying] = useState(true);
@@ -36,12 +36,11 @@ const Game: React.FC = () => {
   };
 
   const handleToggleMusic = () => {
-      setIsMusicPlaying(!isMusicPlaying);
+    setIsMusicPlaying(!isMusicPlaying);
   };
 
   return (
     <div className={styles.container}>
-
       <div
         className={styles.arrowContainer}
         onClick={() => navigate(routes.mainPage())}
@@ -50,9 +49,9 @@ const Game: React.FC = () => {
       </div>
       <div className={styles.musicContainer} onClick={handleToggleMusic}>
         {isMusicPlaying ? (
-            <img src={imageMusic} alt="Звук" />
+          <img src={imageMusic} alt="Звук" />
         ) : (
-            <img src={imageMusicOff} alt="Без звука>" />
+          <img src={imageMusicOff} alt="Без звука>" />
         )}
       </div>
       <div className={styles.containerBalloon}>

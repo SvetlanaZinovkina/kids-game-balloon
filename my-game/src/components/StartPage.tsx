@@ -3,7 +3,6 @@ import { Howl } from 'howler';
 import styles from '../styles/StartPage.module.scss';
 import { useNavigate } from 'react-router';
 import routes from '../routes/routes';
-import ButtonSound from './ui/buttonSound';
 import generateBalloons from '../utilits/generateBallons';
 import generateClouds from '../utilits/generateClouds';
 // @ts-ignore

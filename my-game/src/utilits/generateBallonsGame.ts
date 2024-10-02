@@ -1,4 +1,3 @@
-import React from 'react';
 import uniqueId from 'lodash.uniqueid';
 import random from 'lodash.random';
 import Balloon1 from '../images/balloon-svgrepo-com (1).svg';
