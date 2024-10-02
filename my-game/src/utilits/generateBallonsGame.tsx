@@ -19,7 +19,7 @@ const generateBalloons = (balloonCount = 50): Balloon[] => {
       style: {
         top: `${random(0, 90)}vh`,
         left: `${random(0, 70)}vw`,
-        animationDuration: `${random(40, 80)}s`,
+        animationDuration: `${random(20, 80)}s`,
       },
       popped: false,
     };

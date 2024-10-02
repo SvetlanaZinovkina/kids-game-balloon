@@ -1,21 +1,10 @@
-.button {
-  transform: translate(-50%, -50%);
-  width: 200px;
-  height: 50px;
-  border-radius: 30px;
-  z-index: 3000;
-  background-color: white;
-  display: flex;
-  text-align: center;
-  cursor: pointer;
-  justify-content: center;
-  font-family: 'Rubik Mono One', monospace;
-  &:hover {
-    border: 2px solid #1e90ff;
-  }
-  @media (hover: none) {
-    &:active {
-      border: 2px solid #ff4500;
-    }
+.musicContainer {
+  position: absolute;
+  top: 3%;
+  right: 5%;
+  z-index: 100;
+  img {
+    width: 50px;
+    height: 50px;
   }
 }
