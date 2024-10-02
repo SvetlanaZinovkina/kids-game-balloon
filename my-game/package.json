@@ -12,6 +12,8 @@
     "@types/react-dom": "^18.3.0",
     "framer-motion": "^11.9.0",
     "howler": "^2.2.4",
+    "lodash.random": "^3.2.0",
+    "lodash.uniqueid": "^4.0.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.2",
@@ -48,6 +50,8 @@
   },
   "devDependencies": {
     "@types/howler": "^2.2.12",
+    "@types/lodash.random": "^3.2.9",
+    "@types/lodash.uniqueid": "^4.0.9",
     "prettier": "^3.3.3"
   }
 }

@@ -57,7 +57,7 @@ const StartPage: React.FC = () => {
         {clouds}
       </div>
       <button className={styles.button} onClick={() => navigate(routes.game())}>
-        <p>Старт</p>
+        <p>Играть</p>
       </button>
     </div>
   );

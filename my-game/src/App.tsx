@@ -1,6 +1,5 @@
-import { motion } from 'framer-motion';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import React, { useState } from 'react';
+import React from 'react';
 import './styles/App.css';
 import routes from './routes/routes';
 import StartPage from './components/StartPage';

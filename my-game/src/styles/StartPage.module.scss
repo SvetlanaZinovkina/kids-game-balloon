@@ -2,6 +2,7 @@
   width: 100vw;
   height: 100vh;
   position: relative;
+  display: -webkit-box;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,7 +11,7 @@
   background: linear-gradient(to bottom, #87ceeb, #1e90ff);
   overflow: hidden;
   .title {
-    font-family: 'Honk', system-ui;
+    font-family: 'Honk', system-ui, sans-serif;
     font-size: 50px;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -73,7 +74,9 @@
   justify-content: center;
   cursor: pointer;
   font-family: 'Rubik Mono One', monospace;
-  transition: border 0.3s ease;
+  transition:
+    border 0.3s ease,
+    box-shadow 0.3s ease;
   margin: 2em 0;
   &:hover {
     border: 2px solid #facb56;

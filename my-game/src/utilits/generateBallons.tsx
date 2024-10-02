@@ -5,9 +5,7 @@ import Balloon2 from '../images/balloon-svgrepo-com (2).svg';
 import Balloon3 from '../images/balloon-svgrepo-com (3).svg';
 import Balloon4 from '../images/balloon-svgrepo-com (4).svg';
 
-const generateBalloons = () => {
-  const balloonCount = 50;
-
+const generateBalloons = (balloonCount = 50) => {
   const balloonImages = [Balloon1, Balloon2, Balloon3, Balloon4];
 
   return Array.from({ length: balloonCount }, (_, i) => {
