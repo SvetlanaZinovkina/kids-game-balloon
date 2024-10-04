@@ -3,6 +3,7 @@ self.addEventListener('install', (event) => {
 				caches.open('my-cache').then((cache) => {
 						return cache.addAll([
 								'/', // Кэширование главной страницы
+								'/game', // Кэширование игры
 								'/index.html', // Кэширование HTML файла
 								'/favicon.ico', // Кэширование иконки
 						]);
