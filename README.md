@@ -12,7 +12,13 @@
 
 ## Демо
 
-Посмотрите игру по следующему [URL](https://kids-game-balloon.vercel.app/).
+https://kids-game-balloon.vercel.app/
+
+- **Главная страница:**
+  ![Начало игры](./my-game/src/images/mainpage.png)
+
+- **Начало игры:**
+  ![Начало игры](./my-game/src/images/startgame.png)
 
 ## Технологии
 
